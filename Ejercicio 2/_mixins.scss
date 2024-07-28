@@ -1,0 +1,9 @@
+@mixin theme ($color, $font, $radius, $shadow) {
+    background-color: $color;
+    font-family: $font;
+    border-radius: $radius;
+}
+
+@mixin shadow ($shadow) {
+    box-shadow: $shadow;
+}

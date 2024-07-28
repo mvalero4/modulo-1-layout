@@ -1,0 +1,11 @@
+@mixin base-color ($color,) {
+	background-color: $color;
+}
+
+@mixin darken ($color, $percent) {
+	background-color: darken($color, $percent);
+}
+
+@mixin lighten ($color, $percent) {
+	background-color: lighten($color, $percent);
+}
